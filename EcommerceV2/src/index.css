@@ -1,0 +1,259 @@
+body {
+  background-color: rgb(212, 212, 212);
+}
+.logo {
+  display: flex;
+  justify-self: start;
+  width: 70px;
+}
+h3 {
+  font-size: 20px;
+}
+a {
+  margin: 0 auto;
+  text-decoration: none;
+  color: black;
+}
+.nav {
+  display: flex;
+  list-style: none;
+}
+.nav a {
+  margin: 10px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  display: block;
+}
+.nav a:hover {
+  color: black;
+}
+.nav a.current {
+  color: black;
+  text-decoration: underline;
+}
+.header {
+  display: flex;
+  width:100%;
+  border: 1px solid #a2a2a2;
+  background-color: #a62c2b;
+  box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+  border-radius: 5px;
+}
+.slider {
+  margin: 10px;
+  display: block;
+  border-radius: 10px;
+  width: 98.5%;
+}
+.silvia {
+  width: 100%;
+  border-radius: 10px;
+  margin: 5px;
+  display: none;
+}
+.feature {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100%;
+  margin: 20px auto;
+}
+.featureItems {
+  text-align: center;
+  margin-top: 20px;
+
+}
+.featureItems::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #a62c2b;
+  position: relative;
+}
+h5.price {
+  font-size: 22px;
+}
+.child--image {
+  width: 100%;
+  height: 215px;
+}
+footer h3 {
+  font-size: 12px;
+  text-align: center;
+}
+footer ul {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0px;
+}
+footer li {
+  display: inline-block;
+  margin: 10px;
+}
+footer li a {
+  display: block;
+  text-decoration: none;
+  border-bottom: medium none;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 1s ease 0s;
+}
+footer .facebook:hover {
+  background-color:#365397;
+}
+footer .twitter:hover {
+  background-color:#00a9f1;
+}
+footer .instagram:hover {
+  background-color:#396d9a;
+}
+.footer1 {
+  width:100%;
+  border: 1px solid #a2a2a2;
+  background-color: #a62c2b;
+  box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+  border-radius: 5px;
+  margin-top: 120px;
+}
+.ul-2 {
+  list-style: none;
+  text-align: center;
+  font-size: 8px;
+}
+.JDM {
+  text-align: center;
+}
+.JDM::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #a62c2b;
+  position: relative;
+  z-index: -2
+}
+.parent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100%;
+  margin: 0 auto;
+}
+.child {
+  border: solid black 3px;
+  width: 320px;
+  height: 420px;
+  margin: 10px;
+  text-align: center;
+}
+.child img {
+  width: 100%;
+  height: 215px;
+}
+body {
+  background-color: rgb(212, 212, 212);
+}
+.text-primary {
+  text-align: center;
+}
+.hidden {
+  display: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+.text-primary::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #a62c2b;
+  position: relative;
+  z-index: -2
+}
+a {
+  margin: 0 auto;
+  text-decoration: none;
+  color: black;
+}
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+.skyline {
+  margin: 10px;
+  border-radius: 10px;
+  width: 98.5%;
+  height: 420px;
+}
+.btn {
+  display: flex;
+  margin: auto;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: rgb(212, 212, 212);
+  color: black;
+  padding: 10px 15px;
+  font-size: 14px;
+  transition: 1s;
+  border: solid black 2px;
+}
+.btn:hover {
+  background: #a62c2b;
+  color: #333;
+  border: solid black 2px;
+}
+
+#showcase .content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+#showcase .content h1 h2 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+#showcase .content p{
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+input {
+margin-left: 20px;
+width: 220px;
+}
+textarea{
+  height: 200px;
+  width: 300px;
+  margin: 2px;
+}
+@media (min-device-width : 759px){
+  .header{
+  display: flex;
+  display:inline-block;
+  font-size: 12px;
+  }
+  .hidden{
+  display: block;
+  width: 99%;
+  }
+  .nav a {
+  font-size: 1.1em;
+  }
+  .logo{
+  text-align: center;
+  justify-self: center;
+  }
+  .header{
+  display: flex;
+  display:inline-block;
+  font-size: 12px;
+  }
+  .header{
+  display: flex;
+  display:inline-block;
+  font-size: 12px;
+  }
+}
