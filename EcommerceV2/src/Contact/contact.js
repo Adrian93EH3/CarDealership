@@ -75,8 +75,8 @@ class Form extends React.Component {
 </div>
 
 <div class="form-group">
-    <label for="phone">Email: </label>
-    <input placeholder="youremailhere@email.com" type="text" id="email" name="phone" value={this.state.email}
+    <label for="email">Email: </label>
+    <input placeholder="youremailhere@email.com" type="text" id="email" name="email" value={this.state.email}
     onChange={this.handleChange} required/>
     <div className="validate">{this.state.emailError}</div>
 </div>
