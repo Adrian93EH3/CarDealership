@@ -14,7 +14,7 @@ const Footer = () => {
         </ul>
         <a className="a" href="#" id="footer">
         </a>
-        <h3> &copy;2020 || Adrian D. Diaz</h3>
+        <h3> &copy;2022 || Adrian D. Diaz</h3>
       </footer>
     );
   }
